@@ -1,8 +1,0 @@
-User,Email,Client,Project,Task,Description,Billable,Start date,Start time,End date,End time,Duration,Tags,Amount (USD)
-Nikita Voronin,nikita.voronin@cyberhull.com,Confluence Group,Confluence Group,,"DW-2748 mField, mTND, Child Work Order, Asset look up, select from the Map",Yes,2013-05-30,08:33:00,2013-05-30,11:53:49,03:20:10,,0.00
-Nikita Voronin,nikita.voronin@cyberhull.com,Confluence Group,Confluence Group,,DW-2709 COMPLETED Work Items should stay in the list for current day (>12AM).,Yes,2013-05-30,12:28:05,2013-05-30,13:00:00,00:32:00,,0.00
-Nikita Voronin,nikita.voronin@cyberhull.com,Confluence Group,Confluence Group,,Standup call,Yes,2013-05-30,13:00:00,2013-05-30,13:41:00,00:41:00,,0.00
-Nikita Voronin,nikita.voronin@cyberhull.com,Confluence Group,Confluence Group,,DW-2709 COMPLETED Work Items should stay in the list for current day (>12AM).,Yes,2013-05-30,13:41:00,2013-05-30,14:53:03,01:11:09,,0.00
-Nikita Voronin,nikita.voronin@cyberhull.com,Confluence Group,Confluence Group,,"DW-2708 ""View Item Details"" functionality for history grid",Yes,2013-05-30,14:54:35,2013-05-30,17:00:00,02:06:00,,0.00
-Nikita Voronin,nikita.voronin@cyberhull.com,Confluence Group,Confluence Group,,"DW-2708 ""View Item Details"" functionality for history grid",Yes,2013-05-30,17:21:24,2013-05-30,17:56:46,00:35:22,,0.00
-Nikita Voronin,nikita.voronin@cyberhull.com,Confluence Group,Confluence Group,,DW-2786 Creating duplicate users results in continual PA errors,Yes,2013-05-30,17:56:58,2013-05-30,18:52:05,00:55:07,,0.00

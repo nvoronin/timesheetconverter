@@ -13,6 +13,8 @@ TimesheetConverter::Application.routes.draw do
 
   post "converters/upload_tgl_daily_csv"
 
+  get "converters/view"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

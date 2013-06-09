@@ -1,0 +1,36 @@
+<div class="center hero-unit">
+  <h2>
+    Upload you Tgl something and watch the miracle
+  </h2>
+
+  <h1>Total: <%= number_with_precision(@total_hours, :precision => 2) %> </h1>
+  <table>
+    <tr>
+      <th>User name</th>
+      <th>Email</th>
+      <th>Client</th>
+      <th>Task</th>
+      <th>Description</th>
+      <th>Billable</th>
+      <th>Start date</th>
+      <th>End date</th>
+      <th>Tags</th>
+      <th>Usd amount</th>
+    </tr>
+
+  <% @tgl_rows.each do |tgl_row| %>
+    <tr>
+      <td><%= tgl_row.user_name %></td>
+      <td><%= tgl_row.email %></td>
+      <td><%= tgl_row.client %></td>
+      <td><%= tgl_row.task %></td>
+      <td><%= tgl_row.description %></td>
+      <td><%= tgl_row.billable %></td>
+      <td><%= tgl_row.start_date %></td>
+      <td><%= tgl_row.end_date %></td>
+      <td><%= tgl_row.tags %></td>
+      <td><%= tgl_row.usd_amount %></td>
+    </tr>
+  <% end %>
+  </table>
+</div>
