@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_name: MyString
+  email: MyString
+  client: MyString
+  task: MyString
+  description: MyString
+  billable: true
+  start_date: 2013-06-02 23:58:14
+  end_date: 2013-06-02 23:58:14
+  tags: MyString
+  usd_amount: 9.99
+
+two:
+  user_name: MyString
+  email: MyString
+  client: MyString
+  task: MyString
+  description: MyString
+  billable: true
+  start_date: 2013-06-02 23:58:14
+  end_date: 2013-06-02 23:58:14
+  tags: MyString
+  usd_amount: 9.99

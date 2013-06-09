@@ -1,0 +1,14 @@
+<div class="center hero-unit">
+  <h2>
+    Upload you Tgl something and watch the miracle
+  </h2>
+
+    <h1>File Upload</h1>
+
+    <%= form_tag({:action => 'upload_tgl_daily_csv'}, :multipart => true) %>
+
+        <!-- {:controller => "api/#{CURRENT_API_VERSION}/api", :action => 'file', :method=> :post}, {:multipart => true}) -->
+        <p><label for="upload_file">Select CSV File</label> :
+        <%= file_field( "upload", "file" ) %></p>
+        <%= submit_tag "Upload Tgl something" %>
+</div>

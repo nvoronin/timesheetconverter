@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User name:</b>
+  <%= @tgl_row.user_name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @tgl_row.email %>
+</p>
+
+<p>
+  <b>Client:</b>
+  <%= @tgl_row.client %>
+</p>
+
+<p>
+  <b>Task:</b>
+  <%= @tgl_row.task %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @tgl_row.description %>
+</p>
+
+<p>
+  <b>Billable:</b>
+  <%= @tgl_row.billable %>
+</p>
+
+<p>
+  <b>Start date:</b>
+  <%= @tgl_row.start_date %>
+</p>
+
+<p>
+  <b>End date:</b>
+  <%= @tgl_row.end_date %>
+</p>
+
+<p>
+  <b>Tags:</b>
+  <%= @tgl_row.tags %>
+</p>
+
+<p>
+  <b>Usd amount:</b>
+  <%= @tgl_row.usd_amount %>
+</p>
+
+
+<%= link_to 'Edit', edit_tgl_row_path(@tgl_row) %> |
+<%= link_to 'Back', tgl_rows_path %>
